@@ -11,7 +11,10 @@ import SwiftUI
 struct Budget_BuddyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                WelcomeView()
+            }
+            
         }
     }
 }

@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1411B8E02BDB530C006E5E97 /* Budget_BuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B8DF2BDB530C006E5E97 /* Budget_BuddyApp.swift */; };
-		1411B8E22BDB530C006E5E97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B8E12BDB530C006E5E97 /* ContentView.swift */; };
 		1411B8E42BDB530E006E5E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1411B8E32BDB530E006E5E97 /* Assets.xcassets */; };
 		1411B8E72BDB530E006E5E97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1411B8E62BDB530E006E5E97 /* Preview Assets.xcassets */; };
 		1411B8F12BDB530E006E5E97 /* Budget_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B8F02BDB530E006E5E97 /* Budget_BuddyTests.swift */; };
 		1411B8FB2BDB530E006E5E97 /* Budget_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B8FA2BDB530E006E5E97 /* Budget_BuddyUITests.swift */; };
 		1411B8FD2BDB530E006E5E97 /* Budget_BuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B8FC2BDB530E006E5E97 /* Budget_BuddyUITestsLaunchTests.swift */; };
+		1411B91F2BDB5776006E5E97 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B91E2BDB5776006E5E97 /* UIExtension.swift */; };
+		1411B9212BDB603D006E5E97 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9202BDB603D006E5E97 /* WelcomeView.swift */; };
+		1411B9232BDB6AE5006E5E97 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9222BDB6AE5006E5E97 /* PrimaryButton.swift */; };
+		1411B9252BDB6CF3006E5E97 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9242BDB6CF3006E5E97 /* SecondaryButton.swift */; };
+		1411B9272BDB6EA6006E5E97 /* SocialSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9262BDB6EA6006E5E97 /* SocialSignupView.swift */; };
+		1411B9292BDBADDA006E5E97 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9282BDBADDA006E5E97 /* SignUpView.swift */; };
+		1411B92B2BDBB674006E5E97 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B92A2BDBB674006E5E97 /* RoundTextField.swift */; };
+		1411B92D2BDBBB1E006E5E97 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B92C2BDBBB1E006E5E97 /* SignInView.swift */; };
+		1411B92F2BDCB9E4006E5E97 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B92E2BDCB9E4006E5E97 /* MainTabView.swift */; };
+		1411B9342BDCBD90006E5E97 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411B9302BDCBD90006E5E97 /* Inter-Medium.ttf */; };
+		1411B9352BDCBD90006E5E97 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411B9312BDCBD90006E5E97 /* Inter-SemiBold.ttf */; };
+		1411B9362BDCBD90006E5E97 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411B9322BDCBD90006E5E97 /* Inter-Bold.ttf */; };
+		1411B9372BDCBD90006E5E97 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411B9332BDCBD90006E5E97 /* Inter-Regular.ttf */; };
+		1411B9392BDCC829006E5E97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9382BDCC829006E5E97 /* HomeView.swift */; };
+		1411B93B2BDD8A12006E5E97 /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B93A2BDD8A12006E5E97 /* SegmentButton.swift */; };
+		1411B93D2BDD8CAD006E5E97 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B93C2BDD8CAD006E5E97 /* SubscriptionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 /* Begin PBXFileReference section */
 		1411B8DC2BDB530C006E5E97 /* Budget Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Budget Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1411B8DF2BDB530C006E5E97 /* Budget_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget_BuddyApp.swift; sourceTree = "<group>"; };
-		1411B8E12BDB530C006E5E97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1411B8E32BDB530E006E5E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1411B8E62BDB530E006E5E97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1411B8EC2BDB530E006E5E97 /* Budget BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Budget BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,23 @@
 		1411B8F62BDB530E006E5E97 /* Budget BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Budget BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1411B8FA2BDB530E006E5E97 /* Budget_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget_BuddyUITests.swift; sourceTree = "<group>"; };
 		1411B8FC2BDB530E006E5E97 /* Budget_BuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget_BuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1411B91D2BDB569E006E5E97 /* Budget-Buddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Budget-Buddy-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1411B91E2BDB5776006E5E97 /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		1411B9202BDB603D006E5E97 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		1411B9222BDB6AE5006E5E97 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		1411B9242BDB6CF3006E5E97 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		1411B9262BDB6EA6006E5E97 /* SocialSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSignupView.swift; sourceTree = "<group>"; };
+		1411B9282BDBADDA006E5E97 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		1411B92A2BDBB674006E5E97 /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		1411B92C2BDBBB1E006E5E97 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		1411B92E2BDCB9E4006E5E97 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1411B9302BDCBD90006E5E97 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		1411B9312BDCBD90006E5E97 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		1411B9322BDCBD90006E5E97 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		1411B9332BDCBD90006E5E97 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		1411B9382BDCC829006E5E97 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1411B93A2BDD8A12006E5E97 /* SegmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentButton.swift; sourceTree = "<group>"; };
+		1411B93C2BDD8CAD006E5E97 /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +125,14 @@
 		1411B8DE2BDB530C006E5E97 /* Budget Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				1411B91D2BDB569E006E5E97 /* Budget-Buddy-Info.plist */,
+				1411B9102BDB53F6006E5E97 /* UICommon */,
+				1411B90F2BDB53EC006E5E97 /* Common */,
+				1411B90E2BDB53D9006E5E97 /* Model */,
+				1411B90D2BDB53D2006E5E97 /* ViewModel */,
+				1411B90B2BDB5395006E5E97 /* View */,
+				1411B9092BDB5360006E5E97 /* Font */,
 				1411B8DF2BDB530C006E5E97 /* Budget_BuddyApp.swift */,
-				1411B8E12BDB530C006E5E97 /* ContentView.swift */,
 				1411B8E32BDB530E006E5E97 /* Assets.xcassets */,
 				1411B8E52BDB530E006E5E97 /* Preview Content */,
 			);
@@ -125,6 +162,88 @@
 				1411B8FC2BDB530E006E5E97 /* Budget_BuddyUITestsLaunchTests.swift */,
 			);
 			path = "Budget BuddyUITests";
+			sourceTree = "<group>";
+		};
+		1411B9092BDB5360006E5E97 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9322BDCBD90006E5E97 /* Inter-Bold.ttf */,
+				1411B9302BDCBD90006E5E97 /* Inter-Medium.ttf */,
+				1411B9332BDCBD90006E5E97 /* Inter-Regular.ttf */,
+				1411B9312BDCBD90006E5E97 /* Inter-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		1411B90B2BDB5395006E5E97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9142BDB5450006E5E97 /* MainTab */,
+				1411B9132BDB5441006E5E97 /* Home */,
+				1411B9122BDB5439006E5E97 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1411B90D2BDB53D2006E5E97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1411B90E2BDB53D9006E5E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1411B93C2BDD8CAD006E5E97 /* SubscriptionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1411B90F2BDB53EC006E5E97 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1411B9102BDB53F6006E5E97 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				1411B91E2BDB5776006E5E97 /* UIExtension.swift */,
+				1411B9222BDB6AE5006E5E97 /* PrimaryButton.swift */,
+				1411B9242BDB6CF3006E5E97 /* SecondaryButton.swift */,
+				1411B92A2BDBB674006E5E97 /* RoundTextField.swift */,
+				1411B93A2BDD8A12006E5E97 /* SegmentButton.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		1411B9122BDB5439006E5E97 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9202BDB603D006E5E97 /* WelcomeView.swift */,
+				1411B9262BDB6EA6006E5E97 /* SocialSignupView.swift */,
+				1411B9282BDBADDA006E5E97 /* SignUpView.swift */,
+				1411B92C2BDBBB1E006E5E97 /* SignInView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1411B9132BDB5441006E5E97 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9382BDCC829006E5E97 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1411B9142BDB5450006E5E97 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				1411B92E2BDCB9E4006E5E97 /* MainTabView.swift */,
+			);
+			path = MainTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +350,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1411B9352BDCBD90006E5E97 /* Inter-SemiBold.ttf in Resources */,
+				1411B9362BDCBD90006E5E97 /* Inter-Bold.ttf in Resources */,
 				1411B8E72BDB530E006E5E97 /* Preview Assets.xcassets in Resources */,
 				1411B8E42BDB530E006E5E97 /* Assets.xcassets in Resources */,
+				1411B9372BDCBD90006E5E97 /* Inter-Regular.ttf in Resources */,
+				1411B9342BDCBD90006E5E97 /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +380,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1411B8E22BDB530C006E5E97 /* ContentView.swift in Sources */,
+				1411B92D2BDBBB1E006E5E97 /* SignInView.swift in Sources */,
+				1411B92B2BDBB674006E5E97 /* RoundTextField.swift in Sources */,
+				1411B9252BDB6CF3006E5E97 /* SecondaryButton.swift in Sources */,
+				1411B91F2BDB5776006E5E97 /* UIExtension.swift in Sources */,
+				1411B9212BDB603D006E5E97 /* WelcomeView.swift in Sources */,
+				1411B9392BDCC829006E5E97 /* HomeView.swift in Sources */,
+				1411B9292BDBADDA006E5E97 /* SignUpView.swift in Sources */,
+				1411B9272BDB6EA6006E5E97 /* SocialSignupView.swift in Sources */,
+				1411B9232BDB6AE5006E5E97 /* PrimaryButton.swift in Sources */,
+				1411B93B2BDD8A12006E5E97 /* SegmentButton.swift in Sources */,
 				1411B8E02BDB530C006E5E97 /* Budget_BuddyApp.swift in Sources */,
+				1411B92F2BDCB9E4006E5E97 /* MainTabView.swift in Sources */,
+				1411B93D2BDD8CAD006E5E97 /* SubscriptionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +559,7 @@
 				DEVELOPMENT_TEAM = 98UH276369;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Budget-Buddy-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +589,7 @@
 				DEVELOPMENT_TEAM = 98UH276369;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Budget-Buddy-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
