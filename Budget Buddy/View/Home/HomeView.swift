@@ -19,11 +19,66 @@ struct HomeView: View {
     ]
     var body: some View {
         ScrollView{
-            ZStack{
+            ZStack(alignment: .center){
                 Rectangle()
                     .foregroundColor(.gray70.opacity(0.5))
                     .frame(width: .screenWidth, height: .widthPer(per: 1.1))
                     .cornerRadius(25)
+                
+                Image("home_bg")
+                    .resizable()
+                    .scaledToFit()
+                
+                ZStack{
+                    ArcShape()
+                        .foregroundColor(.gray.opacity(0.2))
+                    ArcShape(start: 0, end: 230)
+                        .foregroundColor(.secondaryC)
+                        .shadow(color: .secondaryC.opacity(0.5) ,radius: 7)
+                }
+                .frame(width: .widthPer(per: 0.72), height: .widthPer(per: 0.72))
+                .padding(.bottom, 18)
+                
+                VStack(spacing: .widthPer(per: 0.07)){
+                    Image("app_logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: .widthPer(per: 0.25))
+                    Text("₹5942")
+                        .font(.customfont(.bold, fontSize: 40))
+                        .foregroundColor(.white)
+                    Text("This month bills")
+                        .font(.customfont(.semibold, fontSize: 12))
+                        .foregroundColor(.gray40)
+                    
+                    Button {
+                      
+                    }label: {
+                        Text("See your budget")
+                            .font(.customfont(.semibold, fontSize: 12))
+                    }
+                    .foregroundColor(.white)
+                    .padding(10)
+                    .background(Color.gray60.opacity(0.2))
+                    .overlay {
+                        RoundedRectangle(cornerRadius:  16)
+                            .stroke(Color.gray70, lineWidth: 1)
+                    }
+                    .cornerRadius(16)
+                }
+                
+                
+                VStack{
+                    Spacer()
+                    HStack{
+                        StatusButton(title: "Active Subs", value: "₹252 ")
+                        StatusButton(title: "Highest Subs", value: "₹2000", color: .primary10)
+                        StatusButton(title: "Lowest Subs", value: "₹199", color: .secondaryG)
+                        
+                        
+                    }
+                }
+                .padding()
             }
             HStack{
                 SegmentButton(title: "Your Subscription", isActive: isSubscription) {
@@ -44,26 +99,7 @@ struct HomeView: View {
             if(isSubscription) {
                 LazyVStack(spacing: 15){
                     ForEach(subArr, id: \.id) { sObj in
-                        HStack{
-                            Image(sObj.icon)
-                                .resizable()
-                                .frame(width: 40, height: 40)
-                            Text(sObj.name)
-                                .font(.customfont(.semibold, fontSize: 14))
-                                .foregroundColor(.white)
-                            Spacer()
-                            Text("₹\(sObj.price)" )
-                                .font(.customfont(.semibold, fontSize: 14))
-                                .foregroundColor(.white)
-                        }
-                        .padding(15)
-                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60)
-                        .background(Color.gray60.opacity(0.2))
-                        .overlay {
-                            RoundedRectangle(cornerRadius:  15)
-                                .stroke(Color.gray70, lineWidth: 1)
-                        }
-                        .cornerRadius(12)
+                        SubscriptionHomeRow(sObj: sObj)
                     }
                 }
                 .padding(.horizontal, 20)
@@ -72,44 +108,7 @@ struct HomeView: View {
             if(!isSubscription) {
                 LazyVStack(spacing: 15){
                     ForEach(subArr, id: \.id) { sObj in
-                        HStack{
-                            ZStack{
-                                VStack{
-                                    
-                                    Text("JUN")
-                                        .font(.customfont(.medium, fontSize: 10))
-                                        .foregroundColor(.white)
-                                    
-                                    Text("25")
-                                        .font(.customfont(.semibold, fontSize: 14))
-                                        .foregroundColor(.white)
-
-                                }
-                            }
-                            .frame(width: 40, height: 40)
-                            .background(Color.gray60.opacity(0.2))
-                            .overlay {
-                                RoundedRectangle(cornerRadius:  15)
-                                    .stroke(Color.gray70, lineWidth: 1)
-                            }
-                            .cornerRadius(12)
-                            
-                            Text(sObj.name)
-                                .font(.customfont(.semibold, fontSize: 14))
-                                .foregroundColor(.white)
-                            Spacer()
-                            Text("₹\(sObj.price)" )
-                                .font(.customfont(.semibold, fontSize: 14))
-                                .foregroundColor(.white)
-                        }
-                        .padding(15)
-                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60)
-                        .background(Color.gray60.opacity(0.2))
-                        .overlay {
-                            RoundedRectangle(cornerRadius:  15)
-                                .stroke(Color.gray70, lineWidth: 1)
-                        }
-                        .cornerRadius(12)
+                       UpcomingBillRow(sObj: sObj)
                     }
                 }
                 .padding(.horizontal, 20)

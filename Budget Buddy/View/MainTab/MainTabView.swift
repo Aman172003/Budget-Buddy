@@ -11,8 +11,14 @@ struct MainTabView: View {
     @State var selectTab: Int = 0
     var body: some View {
         ZStack{
-            ScrollView{
-                
+            if(selectTab == 0) {
+                HomeView()
+                    .frame(width: .screenWidth, height: .screenHeight)
+            }
+            if(selectTab == 1) {
+                BudgetsView()
+                    .frame(width: .screenWidth, height: .screenHeight)
+
             }
             VStack{
                 Spacer()
