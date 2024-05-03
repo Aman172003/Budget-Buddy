@@ -7,12 +7,8 @@
 
 import SwiftUI
 
-struct UIStateModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    UIStateModel()
+public class UIStateModel: ObservableObject
+{
+    @Published var activeCard: Int      = 0
+    @Published var screenDrag: Float    = 0.0
 }

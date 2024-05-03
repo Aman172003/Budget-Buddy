@@ -21,7 +21,6 @@ struct RoundTextField: View {
                 .multilineTextAlignment(.leading)
                 .font(.customfont(.regular, fontSize: 14))
                 .frame(minWidth: 0, maxWidth: .infinity, alignment: textAlign)
-                
                 .foregroundColor(.gray50)
                 .padding(.bottom, 4)
             

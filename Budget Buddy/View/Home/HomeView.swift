@@ -80,6 +80,7 @@ struct HomeView: View {
                 }
                 .padding()
             }
+            .frame(width: .screenWidth, height: .widthPer(per: 1.1))
             HStack{
                 SegmentButton(title: "Your Subscription", isActive: isSubscription) {
                     isSubscription.toggle()

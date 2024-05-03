@@ -37,6 +37,28 @@
 		1411B94B2BDED377006E5E97 /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B94A2BDED377006E5E97 /* BudgetModel.swift */; };
 		1411B94D2BDED8BA006E5E97 /* BudgetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B94C2BDED8BA006E5E97 /* BudgetRow.swift */; };
 		1411B94F2BDEE601006E5E97 /* ArcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B94E2BDEE601006E5E97 /* ArcModel.swift */; };
+		1411B9522BDFAD4B006E5E97 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9512BDFAD4B006E5E97 /* CalendarView.swift */; };
+		1411B9542BDFAFEE006E5E97 /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9532BDFAFEE006E5E97 /* SubscriptionCell.swift */; };
+		1411B9792BE10BC6006E5E97 /* AddSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9782BE10BC6006E5E97 /* AddSubscriptionView.swift */; };
+		1411B98F2BE10E12006E5E97 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B97A2BE10E12006E5E97 /* Week.swift */; };
+		1411B9902BE10E12006E5E97 /* WeekStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B97B2BE10E12006E5E97 /* WeekStore.swift */; };
+		1411B9912BE10E12006E5E97 /* TimeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B97D2BE10E12006E5E97 /* TimeDirection.swift */; };
+		1411B9922BE10E12006E5E97 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B97F2BE10E12006E5E97 /* Color+Extension.swift */; };
+		1411B9932BE10E12006E5E97 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9802BE10E12006E5E97 /* Date+Extension.swift */; };
+		1411B9942BE10E12006E5E97 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9812BE10E12006E5E97 /* View+Extension.swift */; };
+		1411B9952BE10E12006E5E97 /* CornerRadiusShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9832BE10E12006E5E97 /* CornerRadiusShape.swift */; };
+		1411B9962BE10E12006E5E97 /* CornerRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9852BE10E12006E5E97 /* CornerRadiusStyle.swift */; };
+		1411B9972BE10E12006E5E97 /* WeekHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9882BE10E12006E5E97 /* WeekHeaderView.swift */; };
+		1411B9982BE10E12006E5E97 /* WeeksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9892BE10E12006E5E97 /* WeeksTabView.swift */; };
+		1411B9992BE10E12006E5E97 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B98A2BE10E12006E5E97 /* WeekView.swift */; };
+		1411B99A2BE10E12006E5E97 /* InfiniteWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B98C2BE10E12006E5E97 /* InfiniteWeekView.swift */; };
+		1411B99C2BE11B61006E5E97 /* UIStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B99B2BE11B61006E5E97 /* UIStateModel.swift */; };
+		1411B9A02BE13162006E5E97 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B99F2BE13162006E5E97 /* CarouselView.swift */; };
+		1411B9A42BE22766006E5E97 /* SubscriptionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411B9A32BE22766006E5E97 /* SubscriptionInfoView.swift */; };
+		147260332BE3CB28007935A5 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147260322BE3CB28007935A5 /* ItemRow.swift */; };
+		147260362BE4CE4B007935A5 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147260352BE4CE4A007935A5 /* SettingView.swift */; };
+		147260382BE4D136007935A5 /* IconItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147260372BE4D136007935A5 /* IconItemRow.swift */; };
+		1472603C2BE4D181007935A5 /* IconItemSwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472603B2BE4D181007935A5 /* IconItemSwitchRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +113,28 @@
 		1411B94A2BDED377006E5E97 /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
 		1411B94C2BDED8BA006E5E97 /* BudgetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetRow.swift; sourceTree = "<group>"; };
 		1411B94E2BDEE601006E5E97 /* ArcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcModel.swift; sourceTree = "<group>"; };
+		1411B9512BDFAD4B006E5E97 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		1411B9532BDFAFEE006E5E97 /* SubscriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
+		1411B9782BE10BC6006E5E97 /* AddSubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubscriptionView.swift; sourceTree = "<group>"; };
+		1411B97A2BE10E12006E5E97 /* Week.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
+		1411B97B2BE10E12006E5E97 /* WeekStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekStore.swift; sourceTree = "<group>"; };
+		1411B97D2BE10E12006E5E97 /* TimeDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDirection.swift; sourceTree = "<group>"; };
+		1411B97F2BE10E12006E5E97 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		1411B9802BE10E12006E5E97 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		1411B9812BE10E12006E5E97 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		1411B9832BE10E12006E5E97 /* CornerRadiusShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusShape.swift; sourceTree = "<group>"; };
+		1411B9852BE10E12006E5E97 /* CornerRadiusStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusStyle.swift; sourceTree = "<group>"; };
+		1411B9882BE10E12006E5E97 /* WeekHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekHeaderView.swift; sourceTree = "<group>"; };
+		1411B9892BE10E12006E5E97 /* WeeksTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeksTabView.swift; sourceTree = "<group>"; };
+		1411B98A2BE10E12006E5E97 /* WeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		1411B98C2BE10E12006E5E97 /* InfiniteWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteWeekView.swift; sourceTree = "<group>"; };
+		1411B99B2BE11B61006E5E97 /* UIStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStateModel.swift; sourceTree = "<group>"; };
+		1411B99F2BE13162006E5E97 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		1411B9A32BE22766006E5E97 /* SubscriptionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionInfoView.swift; sourceTree = "<group>"; };
+		147260322BE3CB28007935A5 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		147260352BE4CE4A007935A5 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		147260372BE4D136007935A5 /* IconItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconItemRow.swift; sourceTree = "<group>"; };
+		1472603B2BE4D181007935A5 /* IconItemSwitchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconItemSwitchRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +185,7 @@
 		1411B8DE2BDB530C006E5E97 /* Budget Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				1411B9552BDFC202006E5E97 /* 3rdParty */,
 				1411B91D2BDB569E006E5E97 /* Budget-Buddy-Info.plist */,
 				1411B9102BDB53F6006E5E97 /* UICommon */,
 				1411B90F2BDB53EC006E5E97 /* Common */,
@@ -194,6 +239,10 @@
 		1411B90B2BDB5395006E5E97 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				147260342BE4CE27007935A5 /* Settings */,
+				1411B9A22BE2273E006E5E97 /* SubscriptionInfo */,
+				1411B9772BE10B9E006E5E97 /* AddSubscription */,
+				1411B9502BDFAD25006E5E97 /* Calendar */,
 				1411B9472BDED312006E5E97 /* Budgets */,
 				1411B9142BDB5450006E5E97 /* MainTab */,
 				1411B9132BDB5441006E5E97 /* Home */,
@@ -205,6 +254,7 @@
 		1411B90D2BDB53D2006E5E97 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1411B99B2BE11B61006E5E97 /* UIStateModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -239,6 +289,11 @@
 				1411B9432BDE04C2006E5E97 /* StatusButton.swift */,
 				1411B9452BDE0B2D006E5E97 /* ArcShape.swift */,
 				1411B94C2BDED8BA006E5E97 /* BudgetRow.swift */,
+				1411B9532BDFAFEE006E5E97 /* SubscriptionCell.swift */,
+				1411B99F2BE13162006E5E97 /* CarouselView.swift */,
+				147260322BE3CB28007935A5 /* ItemRow.swift */,
+				147260372BE4D136007935A5 /* IconItemRow.swift */,
+				1472603B2BE4D181007935A5 /* IconItemSwitchRow.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -276,6 +331,129 @@
 				1411B9482BDED33A006E5E97 /* BudgetsView.swift */,
 			);
 			path = Budgets;
+			sourceTree = "<group>";
+		};
+		1411B9502BDFAD25006E5E97 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9512BDFAD4B006E5E97 /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		1411B9552BDFC202006E5E97 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				1411B98E2BE10E12006E5E97 /* InfiniteWeekView */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		1411B9772BE10B9E006E5E97 /* AddSubscription */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9782BE10BC6006E5E97 /* AddSubscriptionView.swift */,
+			);
+			path = AddSubscription;
+			sourceTree = "<group>";
+		};
+		1411B97C2BE10E12006E5E97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1411B97A2BE10E12006E5E97 /* Week.swift */,
+				1411B97B2BE10E12006E5E97 /* WeekStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1411B97E2BE10E12006E5E97 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				1411B97D2BE10E12006E5E97 /* TimeDirection.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		1411B9822BE10E12006E5E97 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1411B97F2BE10E12006E5E97 /* Color+Extension.swift */,
+				1411B9802BE10E12006E5E97 /* Date+Extension.swift */,
+				1411B9812BE10E12006E5E97 /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1411B9842BE10E12006E5E97 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9832BE10E12006E5E97 /* CornerRadiusShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		1411B9862BE10E12006E5E97 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9852BE10E12006E5E97 /* CornerRadiusStyle.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		1411B9872BE10E12006E5E97 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1411B97E2BE10E12006E5E97 /* Enums */,
+				1411B9822BE10E12006E5E97 /* Extensions */,
+				1411B9842BE10E12006E5E97 /* Shapes */,
+				1411B9862BE10E12006E5E97 /* ViewModifier */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1411B98B2BE10E12006E5E97 /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9882BE10E12006E5E97 /* WeekHeaderView.swift */,
+				1411B9892BE10E12006E5E97 /* WeeksTabView.swift */,
+				1411B98A2BE10E12006E5E97 /* WeekView.swift */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
+		1411B98D2BE10E12006E5E97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1411B98B2BE10E12006E5E97 /* Week */,
+				1411B98C2BE10E12006E5E97 /* InfiniteWeekView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1411B98E2BE10E12006E5E97 /* InfiniteWeekView */ = {
+			isa = PBXGroup;
+			children = (
+				1411B97C2BE10E12006E5E97 /* Models */,
+				1411B9872BE10E12006E5E97 /* Utils */,
+				1411B98D2BE10E12006E5E97 /* Views */,
+			);
+			path = InfiniteWeekView;
+			sourceTree = "<group>";
+		};
+		1411B9A22BE2273E006E5E97 /* SubscriptionInfo */ = {
+			isa = PBXGroup;
+			children = (
+				1411B9A32BE22766006E5E97 /* SubscriptionInfoView.swift */,
+			);
+			path = SubscriptionInfo;
+			sourceTree = "<group>";
+		};
+		147260342BE4CE27007935A5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				147260352BE4CE4A007935A5 /* SettingView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,23 +594,45 @@
 				1411B94D2BDED8BA006E5E97 /* BudgetRow.swift in Sources */,
 				1411B9462BDE0B2D006E5E97 /* ArcShape.swift in Sources */,
 				1411B9402BDDFF1E006E5E97 /* SubscriptionHomeRow.swift in Sources */,
+				1411B9952BE10E12006E5E97 /* CornerRadiusShape.swift in Sources */,
 				1411B92D2BDBBB1E006E5E97 /* SignInView.swift in Sources */,
 				1411B92B2BDBB674006E5E97 /* RoundTextField.swift in Sources */,
+				147260362BE4CE4B007935A5 /* SettingView.swift in Sources */,
+				147260332BE3CB28007935A5 /* ItemRow.swift in Sources */,
+				1411B9522BDFAD4B006E5E97 /* CalendarView.swift in Sources */,
+				1411B98F2BE10E12006E5E97 /* Week.swift in Sources */,
 				1411B9252BDB6CF3006E5E97 /* SecondaryButton.swift in Sources */,
 				1411B94F2BDEE601006E5E97 /* ArcModel.swift in Sources */,
 				1411B91F2BDB5776006E5E97 /* UIExtension.swift in Sources */,
+				1411B9902BE10E12006E5E97 /* WeekStore.swift in Sources */,
 				1411B9212BDB603D006E5E97 /* WelcomeView.swift in Sources */,
 				1411B9392BDCC829006E5E97 /* HomeView.swift in Sources */,
 				1411B9292BDBADDA006E5E97 /* SignUpView.swift in Sources */,
+				1411B9922BE10E12006E5E97 /* Color+Extension.swift in Sources */,
+				1411B9932BE10E12006E5E97 /* Date+Extension.swift in Sources */,
 				1411B9272BDB6EA6006E5E97 /* SocialSignupView.swift in Sources */,
 				1411B9232BDB6AE5006E5E97 /* PrimaryButton.swift in Sources */,
+				1411B9962BE10E12006E5E97 /* CornerRadiusStyle.swift in Sources */,
 				1411B9422BDE0029006E5E97 /* UpcomingBillRow.swift in Sources */,
 				1411B93B2BDD8A12006E5E97 /* SegmentButton.swift in Sources */,
+				1411B9972BE10E12006E5E97 /* WeekHeaderView.swift in Sources */,
 				1411B9492BDED33A006E5E97 /* BudgetsView.swift in Sources */,
+				1411B9942BE10E12006E5E97 /* View+Extension.swift in Sources */,
+				1411B9982BE10E12006E5E97 /* WeeksTabView.swift in Sources */,
+				1411B9912BE10E12006E5E97 /* TimeDirection.swift in Sources */,
 				1411B8E02BDB530C006E5E97 /* Budget_BuddyApp.swift in Sources */,
+				1411B9792BE10BC6006E5E97 /* AddSubscriptionView.swift in Sources */,
+				147260382BE4D136007935A5 /* IconItemRow.swift in Sources */,
+				1411B99A2BE10E12006E5E97 /* InfiniteWeekView.swift in Sources */,
+				1411B9542BDFAFEE006E5E97 /* SubscriptionCell.swift in Sources */,
+				1411B9A02BE13162006E5E97 /* CarouselView.swift in Sources */,
+				1411B9A42BE22766006E5E97 /* SubscriptionInfoView.swift in Sources */,
+				1411B9992BE10E12006E5E97 /* WeekView.swift in Sources */,
+				1472603C2BE4D181007935A5 /* IconItemSwitchRow.swift in Sources */,
 				1411B9442BDE04C2006E5E97 /* StatusButton.swift in Sources */,
 				1411B92F2BDCB9E4006E5E97 /* MainTabView.swift in Sources */,
 				1411B93D2BDD8CAD006E5E97 /* SubscriptionModel.swift in Sources */,
+				1411B99C2BE11B61006E5E97 /* UIStateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
