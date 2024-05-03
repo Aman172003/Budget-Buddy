@@ -23,6 +23,10 @@ struct MainTabView: View {
                 CalendarView()
                     .frame(width: .screenWidth, height: .screenHeight)
             }
+            if(selectTab == 3) {
+                CardView()
+                    .frame(width: .screenWidth, height: .screenHeight)
+            }
             VStack{
                 Spacer()
                 ZStack(alignment: .center){
