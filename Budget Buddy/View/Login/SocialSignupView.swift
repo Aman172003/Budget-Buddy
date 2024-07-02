@@ -13,14 +13,17 @@ struct SocialSignupView: View {
     var body: some View {
         ZStack{
             
+            Image("temp")
+                .resizable()
+                .scaledToFill()
+                .frame(width: .widthPer(per: 0.5))
             
             VStack{
                 
-                Image("app_logo")
+                Image("logo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: .widthPer(per: 0.5) )
-                    .padding(.top, .topInsets + 8)
                 
                 Spacer()
                 

@@ -158,7 +158,7 @@ struct AddSubscriptionView: View {
                         .foregroundColor(.gray40)
                     Spacer()
                         .frame(height: 4)
-                    Text("$\( amountVal, specifier: "%.2f" )")
+                    Text("₹\( amountVal, specifier: "%.2f" )")
                         .font(.customfont(.bold, fontSize: 40))
                         .foregroundColor(.white)
                     Spacer()

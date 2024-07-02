@@ -13,10 +13,7 @@ struct SettingView: View {
     
     var body: some View {
         ScrollView {
-            
-                        
             VStack{
-                
                 ZStack{
                     HStack{
                         Button {
@@ -52,11 +49,11 @@ struct SettingView: View {
                     .frame(width: 70, height: 70)
                 Spacer()
                     .frame(height: 15)
-                Text("Code For Any")
+                Text("Abhinav Pandey")
                     .font(.customfont(.bold, fontSize: 20))
                     .foregroundColor(.white)
                 
-                Text("codeforany@gmail.com")
+                Text("Milky@gmail.com")
                     .font(.customfont(.medium, fontSize: 12))
                     .accentColor(.gray30)
                 
@@ -112,7 +109,7 @@ struct SettingView: View {
                     
                     IconItemRow(icon: "chart", title: "Summary", value: "Average")
                     
-                    IconItemRow(icon: "money", title: "Dafault currency", value: "USD ($)")
+                    IconItemRow(icon: "money", title: "Dafault currency", value: "INR ₹")
                 }
                 .padding(.vertical, 10)
                 .background(Color.gray60.opacity( 0.2))

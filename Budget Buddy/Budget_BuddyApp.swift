@@ -6,15 +6,18 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct Budget_BuddyApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
             NavigationView{
                 WelcomeView()
             }
-            
         }
     }
 }

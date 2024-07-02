@@ -40,10 +40,10 @@ struct HomeView: View {
                 .padding(.bottom, 18)
                 
                 VStack(spacing: .widthPer(per: 0.07)){
-                    Image("app_logo")
+                    Image("logo")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: .widthPer(per: 0.25))
+                        .frame(width: .widthPer(per: 0.15))
                     Text("₹5942")
                         .font(.customfont(.bold, fontSize: 40))
                         .foregroundColor(.white)

@@ -6,19 +6,22 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct SignUpView: View {
     @State var txtEmail: String = ""
     @State var txtPassword: String = ""
     @State var showSignIn: Bool = false
+    @State var errorMessage: String?
+    @State var showMainTab: Bool = false
+    
     var body: some View {
         ZStack{
             VStack{
-                Image("app_logo")
+                Image("logo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: .widthPer(per: 0.5))
-                    .padding(.top, .topInsets+8)
                 
                 Spacer()
                 
@@ -62,6 +65,7 @@ struct SignUpView: View {
                     .padding(.bottom, 20)
                 
                 PrimaryButton(title: "Register", onPressed: {
+                    register()
                         
                 })
                 .padding(.bottom, 150)
@@ -91,7 +95,26 @@ struct SignUpView: View {
         .navigationBarBackButtonHidden(true)
         .ignoresSafeArea()
         .background(Color.gray80)
+        .background(
+                    NavigationLink(
+                        destination: MainTabView(),
+                        isActive: $showMainTab,
+                        label: {
+                            EmptyView()
+                        }
+                    )
+                )
     }
+    func register() {
+            Auth.auth().createUser(withEmail: txtEmail, password: txtPassword) { authResult, error in
+                if let error = error {
+                    self.errorMessage = error.localizedDescription
+                } else {
+                    // User is signed up successfully
+                    showMainTab.toggle()
+                }
+            }
+        }
 }
 
 #Preview {

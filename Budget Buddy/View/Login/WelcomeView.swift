@@ -1,40 +1,27 @@
-//
-//  WelcomeView.swift
-//  Budget Buddy
-//
-//  Created by Aman on 26/04/24.
-//
-
 import SwiftUI
 
 struct WelcomeView: View {
     @State var showSignIn: Bool = false
-    @State var showSignUo: Bool = false
+    @State var showSignUp: Bool = false
     var body: some View {
         ZStack{
-            Image("welcome_screen")
+            Image("Designer_wc")
                 .resizable()
                 .scaledToFill()
                 .frame(width: .screenWidth, height: .screenHeight)
             VStack{
-                Image("app_logo")
+                Image("logo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: .widthPer(per: 0.5))
-                    .padding(.top, .topInsets+8)
+                
                 Spacer()
-                Text("jedksfjjehbkdxgehbkjdsgfdxkjbcxjk jkbeudfksdjbhkwefd.")
-                    .multilineTextAlignment(.center)
-                    .font(.customfont(.regular, fontSize: 14))
-                    .padding(.horizontal, 30)
-                    .foregroundColor(.white)
-                    .padding(.bottom, 30)
                 PrimaryButton(title: "Sign up", onPressed: {
-                    showSignUo.toggle()
+                    showSignUp.toggle()
                 })
                 .background(NavigationLink(
                     destination: SocialSignupView(),
-                    isActive: $showSignUo,
+                    isActive: $showSignUp,
                     label: {
                         EmptyView()
                     }))

@@ -6,24 +6,26 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct SignInView: View {
     @State var txtLogin: String = ""
     @State var txtPassword: String = ""
     @State var isRemember: Bool = false
     @State var showSignUp: Bool = false
+    @State var showMainTab: Bool = false
+    @State var errorMessage: String?
+    
     var body: some View {
         ZStack{
                         
             VStack{
                 
-                Image("app_logo")
+                Image("logo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: .widthPer(per: 0.5) )
-                    .padding(.top, .topInsets + 8)
-                
-                
+                    
                 Spacer()
                 
                 RoundTextField(title: "Login", text: $txtLogin, keyboardType: .emailAddress)
@@ -76,8 +78,14 @@ struct SignInView: View {
                 .padding(.horizontal, 20)
                 .padding(.bottom, 15)
                 
+                if let errorMessage = errorMessage {
+                                    Text(errorMessage)
+                                        .foregroundColor(.red)
+                                        .padding(.bottom, 20)
+                    }
+                
                 PrimaryButton(title: "Sign In", onPressed: {
-                    
+                    signIn()
                 })
                 
                 Spacer()
@@ -103,7 +111,26 @@ struct SignInView: View {
         .navigationBarBackButtonHidden(true)
         .ignoresSafeArea()
         .background(Color.grayC)
+        .background(
+                    NavigationLink(
+                        destination: MainTabView(),
+                        isActive: $showMainTab,
+                        label: {
+                            EmptyView()
+                        }
+                    )
+                )
     }
+    func signIn() {
+            Auth.auth().signIn(withEmail: txtLogin, password: txtPassword) { authResult, error in
+                if let error = error {
+                    self.errorMessage = error.localizedDescription
+                } else {
+                    // User is signed in successfully, navigate to MainTabView
+                    showMainTab.toggle()
+                }
+            }
+        }
 }
 
 #Preview {

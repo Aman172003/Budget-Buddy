@@ -60,7 +60,7 @@ struct SubscriptionInfoView: View {
                                 .font(.customfont(.bold, fontSize: 32))
                                 .foregroundColor(.white)
                             
-                            Text( "$\(sObj.price)" )
+                            Text( "₹\(sObj.price)" )
                                 .font(.customfont(.bold, fontSize: 20))
                                 .foregroundColor(.gray30)
                                 
@@ -81,7 +81,7 @@ struct SubscriptionInfoView: View {
                             ItemRow(title: "Category", value: "Enterteintment" )
                             ItemRow(title: "First payment", value: "08.07.2023" )
                             ItemRow(title: "Reminder", value: "Never" )
-                            ItemRow(title: "Currency", value: "USD ($)" )
+                            ItemRow(title: "Currency", value: "INR ₹" )
                             
                         }
                         .padding(.vertical, 15)
